@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda Js</title>
+
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.js"
+  integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <h1>Agenda JS</h1>
+    </header>
+    <main>
+      <section class="add-tarefas">
+        <label for="description">Descrição</label>
+        <input type="text" name="description" id="description">
+
+        <input type="button" value="Adicionar" id="add">
+      </section>
+      <section class="agenda">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>
+                Tarefas
+              </th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+          </tbody>  
+        </table>
+      </section>
+    </main>
+  
+    <script src="./agenda.js"></script>
+  </body>
+</html>
